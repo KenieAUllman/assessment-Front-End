@@ -14,8 +14,14 @@ let form = document.querySelector('form#contact');
 
 form.addEventListener('submit', handleSubmit);
 
-let bulldogImage = document.getElementById("bulldogImage");
+function bulldogImage(evt) {
+	evt.preventDefault
 
-bulldogImage.addEventListener("mouseover", bulldogImage); 
+	alert('You are a good boy!')
+}
+
+let test = document.querySelector("onmouseover");
+
+test.addEventListener("mouseover", bulldogImage); 
  
 

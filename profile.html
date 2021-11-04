@@ -19,7 +19,7 @@
         html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
     </style>
 
-    <content>
+    <body>
         <div class='container'>
             <image src='Nitro.jpg' alt="Husky">
         </div>
@@ -40,7 +40,7 @@
         </h3>
         <h3 style= 'padding:10px; border: 3px double dashed #f5cb5c'>Career Goals
            <p>What do you think I should be?</p>
-            <form>
+            <form id ='career'>
                 <input type="radio" id="DogModel" name="cGoals" value="DogModel"> 
                 <label for="DogModel">Dog Model</label>
                 <input type="radio" id="ChickenHunter" name="cGoals" value="ChickenHunter">
@@ -50,7 +50,9 @@
                 <input type="submit" value='Submit'>
             </form>
         </h3>
-        <button id="color">My Favorite Color</button>
-        <button id="place">My Favorite Place</button>
-        <button id="ritual">My Favorite Ritual</button>
-    </content>
+        <button type='button' class='block' id="color">My Favorite Color</button><br>
+        <button type='button' class='block' id="place">My Favorite Place</button><br>
+        <button type='button' class='block' id="ritual">My Favorite Ritual</button>
+
+        <script type="text/javascript" src="profile.js"></script>
+    </body>
