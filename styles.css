@@ -1,0 +1,56 @@
+body {
+  background: #cfdbd5;
+  margin: 1rem;
+  padding: 1rem;
+  max-width: 500px;
+  margin: 2rem auto;
+  font-family: "Open Sans", sans-serif;
+}
+
+nav {
+	border-bottom: 4px solid #f5CB5C;
+}
+
+ol {
+	padding-left: 0;
+}
+
+.crumb {
+	margin-right: 2em;
+	display: inline;
+}
+
+a {
+	color: #f5CB5C;
+}
+
+a:visited {
+	color: #e8eddf;
+}
+
+
+input {
+	display: block;
+}
+
+img {
+	max-width: 300px;
+}
+
+.container {
+	display: flex;
+	flex-direction:column;
+	justify-content: center;
+	align-items: flex-start;
+}
+
+.split {
+	height:60%;
+	width: 33%;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	overflow-x: hidden;
+	padding-top: 20px;
+
+}
